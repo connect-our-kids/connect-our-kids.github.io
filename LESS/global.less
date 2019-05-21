@@ -1,5 +1,10 @@
 body {
     background-color: lightgray;
+    @media @desk{
+        display: flex;
+        flex-direction: column;
+        
+    }
 }
 .body{
     margin: 2rem;
@@ -8,6 +13,10 @@ body {
     padding-top: 50%;
     width:100%;
     height: auto;
+    @media @desk{
+        
+    }
+
 }
 header {
     position: fixed;
@@ -19,6 +28,9 @@ header {
     border:2px solid #008eb6;
     width: 100%;
     padding-bottom: 1rem;
+    @media @desk{
+        width: 100%;
+    }
     h1{
         text-align: center;
         font-size: 3.5rem;
@@ -38,6 +50,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    @media @desk{}
     div{
         margin-right: 20%;
         margin-left: 20%;
