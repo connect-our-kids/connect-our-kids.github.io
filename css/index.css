@@ -208,7 +208,7 @@ button {
 .carousel .dev1 .social .fa {
   display: inline-block;
   padding: 2rem;
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -312,7 +312,7 @@ header .topnav .contButtons button {
   border-color: #008eb6;
   background-color: #FFFFFF;
   width: 265px;
-  height: fit-content;
+  height: 3.8rem;
 }
 header .topnav .contButtons button:hover {
   background-color: #008eb6;
@@ -414,7 +414,7 @@ header .contButtons button {
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.19);
   width: 265px;
-  height: fit-content;
+  height: 3.8rem;
   border-radius: 12px;
 }
 header .contButtons button:hover {
