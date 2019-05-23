@@ -415,6 +415,7 @@ header .contButtons button {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.19);
   width: 265px;
   height: fit-content;
+  border-radius: 12px;
 }
 header .contButtons button:hover {
   background-color: #FFFFFF;
@@ -591,4 +592,23 @@ header .contButtons button:hover {
 .contact .linkedin {
   background: #007bb5;
   color: white;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #008eb6;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+#myBtn:hover {
+  background-color: white;
+  color: #008eb6;
 }
