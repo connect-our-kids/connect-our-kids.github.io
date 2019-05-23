@@ -496,6 +496,7 @@ header .contButtons button:hover {
 .test .textBox img {
   float: left;
   margin-right: 20px;
+  border-radius: 50%;
 }
 @media only screen and (max-width: 800px) {
   .test .textBox img {
@@ -503,6 +504,10 @@ header .contButtons button:hover {
     float: none;
     display: block;
   }
+}
+.test .textBox blockquote {
+  margin-top: 1rem;
+  text-align: center;
 }
 .test .textBox span {
   font-size: 1.8rem;
