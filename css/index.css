@@ -199,18 +199,19 @@ button {
 }
 .carousel .dev1 .devhead h1 {
   font-size: 1.5rem;
-  align-self: center;
+  text-align: center;
+}
+.carousel .dev1 .devhead h2 {
+  font-size: 1rem;
+  text-align: center;
 }
 .carousel .dev1 .social .fa {
-  display: inline-table;
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
+  display: inline-block;
+  padding: 2rem;
+  font-size: 1rem;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  margin-top: 2rem;
-  margin-right: 0.2rem;
 }
 .carousel .dev1 .social .fa-facebook {
   background: #3B5998;
