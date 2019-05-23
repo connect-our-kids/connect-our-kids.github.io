@@ -1,15 +1,22 @@
-
 .head {
     margin: 0 auto;
 
     h1 {
         font-size: 3rem;
         text-align: center;
-        background-color: white;
         padding: 1rem;
+        color: #0078b6;
+        @media @desk{
+        border: 2px solid #0078b6; 
+        margin-top: 1rem;       
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 12px;
+        }
     }
 }
-button{
+
+button {
     justify-self: center;
 }
 
@@ -23,6 +30,7 @@ button{
         align-self: center;
         display: flex;
 
+
         .left-button,
         .right-button {
             font-size: 40px;
@@ -31,6 +39,7 @@ button{
             padding-right: 2rem;
             cursor: pointer;
         }
+
         .back {
             border-radius: 12px;
             background-color: #0078b6;
@@ -47,11 +56,12 @@ button{
         flex-direction: column;
         align-items: center;
         padding: 1rem;
-        p{     
-            @media @desk{  
-        margin-left: 25%;
-        margin-right:25%;
-            } 
+
+        p {
+            @media @desk {
+                margin-left: 25%;
+                margin-right: 25%;
+            }
         }
 
 
@@ -68,9 +78,11 @@ button{
         .devhead {
             display: flex;
             flex-direction: row;
-            div{
+
+            div {
                 align-self: center;
             }
+
             h1 {
                 font-size: 1.5rem;
                 align-self: center;

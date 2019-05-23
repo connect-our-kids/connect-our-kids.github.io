@@ -132,8 +132,17 @@ table {
 .head h1 {
   font-size: 3rem;
   text-align: center;
-  background-color: white;
   padding: 1rem;
+  color: #0078b6;
+}
+@media (min-width: 1000px) {
+  .head h1 {
+    border: 2px solid #0078b6;
+    margin-top: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 12px;
+  }
 }
 button {
   justify-self: center;
