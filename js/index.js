@@ -17,5 +17,19 @@ function buttonTextAnimation() {
 		repeatDelay: 1
 	});
 }  
+//Top Button Function
+window.onscroll = function() {scrollFunction()};
 
-// buttonTextAnimation()
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}

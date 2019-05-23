@@ -132,8 +132,17 @@ table {
 .head h1 {
   font-size: 3rem;
   text-align: center;
-  background-color: white;
   padding: 1rem;
+  color: #0078b6;
+}
+@media (min-width: 1000px) {
+  .head h1 {
+    border: 2px solid #0078b6;
+    margin-top: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 12px;
+  }
 }
 button {
   justify-self: center;
@@ -190,18 +199,19 @@ button {
 }
 .carousel .dev1 .devhead h1 {
   font-size: 1.5rem;
-  align-self: center;
+  text-align: center;
+}
+.carousel .dev1 .devhead h2 {
+  font-size: 1rem;
+  text-align: center;
 }
 .carousel .dev1 .social .fa {
-  display: inline-table;
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
+  display: inline-block;
+  padding: 2rem;
+  font-size: 2rem;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  margin-top: 2rem;
-  margin-right: 0.2rem;
 }
 .carousel .dev1 .social .fa-facebook {
   background: #3B5998;
@@ -302,7 +312,7 @@ header .topnav .contButtons button {
   border-color: #008eb6;
   background-color: #FFFFFF;
   width: 265px;
-  height: fit-content;
+  height: 3.8rem;
 }
 header .topnav .contButtons button:hover {
   background-color: #008eb6;
@@ -404,7 +414,8 @@ header .contButtons button {
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.19);
   width: 265px;
-  height: fit-content;
+  height: 3.8rem;
+  border-radius: 12px;
 }
 header .contButtons button:hover {
   background-color: #FFFFFF;
@@ -486,6 +497,7 @@ header .contButtons button:hover {
 .test .textBox img {
   float: left;
   margin-right: 20px;
+  border-radius: 50%;
 }
 @media only screen and (max-width: 800px) {
   .test .textBox img {
@@ -493,6 +505,10 @@ header .contButtons button:hover {
     float: none;
     display: block;
   }
+}
+.test .textBox blockquote {
+  margin-top: 1rem;
+  text-align: center;
 }
 .test .textBox span {
   font-size: 1.8rem;
@@ -576,4 +592,23 @@ header .contButtons button:hover {
 .contact .linkedin {
   background: #007bb5;
   color: white;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #008eb6;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+#myBtn:hover {
+  background-color: white;
+  color: #008eb6;
 }
